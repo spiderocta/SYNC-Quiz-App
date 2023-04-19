@@ -1,0 +1,138 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+/* root styles  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* scrollbar */ 
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1843a5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFF;
+}
+
+
+input{
+    cursor: pointer;
+}
+
+.quiz {
+    background-color: #1843a5;
+    padding: 30px;
+}
+
+.heading{
+    padding: 10px 0 40px 0;
+}
+
+.heading .title{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 500;
+    text-align: center;
+}
+
+.heading .subtitle{
+        font-size: 20px;
+        color: #FFF;
+        font-weight: 300;
+        text-align: center;
+}
+
+
+.result{
+    text-align: center;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.result p:first-child{
+    padding: 10px 20px;
+}
+
+.reload button{
+    background-color: #04AA6D;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.reload button:hover{
+    background-color: #0a885a;
+}
+
+.quiz-form{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.question{
+    background-color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin:20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    cursor: pointer;
+}
+
+.question > * {
+    font-size: 18px; 
+}
+
+.option{
+    margin-left: 10px;
+}
+
+.submit{
+   text-align: center;
+   margin: 30px 0;
+}
+
+.submit input{
+    background-color: #04AA6D;
+    padding: 5px 25px;
+    color: #FFF;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+/* editable by javascript */
+.hide{
+    display: none;
+}
+
+.correct{
+    background-color: #c8ffdf;
+}
+
+.wrong{
+    background-color: #ffd1d1;
+}
