@@ -129,10 +129,10 @@ input{
     display: none;
 }
 
-.correct{
+.correct{   
     background-color: #c8ffdf;
 }
-
-.wrong{
+   
+.wrong{  
     background-color: #ffd1d1;
 }
